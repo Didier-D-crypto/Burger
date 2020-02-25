@@ -1,0 +1,11 @@
+<ul>
+  {{#each plans}}
+  <li>
+    <p>
+      {{this.id}}. {{this.plan}}
+
+      <button data-planid="{{this.id}}" class="delplan">Delete Plan!</button>
+    </p>
+  </li>
+  {{/each}}
+//</ul>

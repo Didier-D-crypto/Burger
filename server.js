@@ -20,7 +20,7 @@ var connection = mysql.createConnection({
   port: 3306,
   user: "root",
   password: "YourRootPassword",
-  database: "moviePlanner_db"// change the database if choosing to import into next model// 
+  database: "burger_db"// change the database if choosing to import into next model// 
                                 
 });
 

@@ -1,7 +1,7 @@
 module.exports = app => {
     //app.get write all your routes in here then send to server.js
     app.get("/", function (req, res) {
-        connection.query("SELECT * FROM movies;", function (err, data) {
+        connection.query("SELECT * FROM burger_db;", function (err, data) {
             if (err) {
                 return res.status(500).end();
             }
@@ -24,8 +24,8 @@ module.exports = app => {
     });
 
     // Update a plan //discern witch data you're updating
-    app.put("/api/ /:id", function (req, res) {
-        connection.query("UPDATE movies SET movie = ? WHERE id = ?", [req.body.movies, req.params.id], function (err, result) {
+    app.put("/api/burger /:id", function (req, res) {
+        connection.query("UPDATE  SET  = ? WHERE id = ?", [req.body.movies, req.params.id], function (err, result) {
             if (err) {
                 // If an error occurred, send a generic server failure
                 return res.status(500).end();

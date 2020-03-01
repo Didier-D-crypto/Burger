@@ -1,16 +1,15 @@
-DROP DATABASE IF EXISTS ;
+DROP DATABASE IF EXISTS burger4;
 
 -- Create the database moviePlanner_db and specified it for use.
-CREATE DATABASE ;
+CREATE DATABASE burger4;
 
-USE ;
+USE burger4;
 
 -- Create the table movies.
-CREATE TABLE  (
+CREATE TABLE burger (
   id int NOT NULL ,
-   VARCHAR(300) NOT NULL,
+   VARCHAR(30) NOT NULL,
   PRIMARY KEY (id)
 );
 
 -- Insert a set of records.
-INSERT INTO 

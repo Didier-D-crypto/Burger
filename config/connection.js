@@ -8,8 +8,8 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     port: 3006,
     user: "root",
-    password: "",
-    database: "didier"
+    password: "yourRootPassword",
+    database: ""
   });
 };
 

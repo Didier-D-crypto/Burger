@@ -9,7 +9,7 @@ if (process.env.JAWSDB_URL) {
     port: 3006,
     user: "root",
     password: "",
-    database: ""
+    database: "didier"
   });
 };
 
